@@ -2,30 +2,98 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Privacy Policy - Appunti Rapidi</title>
   <style>
-    body { font-family: sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; color: #333; }
-    h1 { font-size: 1.5rem; }
-    h2 { font-size: 1.1rem; margin-top: 2rem; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f5f7fa;
+      color: #333;
+      padding: 40px 20px;
+    }
+    .card {
+      background: white;
+      max-width: 680px;
+      margin: 0 auto;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+      padding: 40px;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 32px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid #eee;
+    }
+    .header img {
+      width: 56px;
+      height: 56px;
+      border-radius: 10px;
+    }
+    .header-text h1 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #1a1a1a;
+    }
+    .header-text p {
+      font-size: 0.85rem;
+      color: #888;
+      margin-top: 2px;
+    }
+    h2 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #1a1a1a;
+      margin: 24px 0 8px;
+    }
+    p, li {
+      font-size: 0.95rem;
+      line-height: 1.65;
+      color: #555;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li { margin-bottom: 6px; }
+    .footer {
+      margin-top: 32px;
+      padding-top: 20px;
+      border-top: 1px solid #eee;
+      font-size: 0.85rem;
+      color: #888;
+    }
+    a { color: #3b6ef0; text-decoration: none; }
   </style>
 </head>
 <body>
-  <h1>Privacy Policy - Appunti Rapidi</h1>
-  <p>Ultimo aggiornamento: settembre 2026</p>
+  <div class="card">
+    <div class="header">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAABN0lEQVR42u3dQQ0AIAwEwRqqMzwjhSrgWRLSuWQN0PkTufbR3MIjAOAhABAAAkAACAABIAAEgAAQAAJAAAgAASAABIAAEAAC4Jb1DAAAAHB8ABwfAMcHwPEBcHwAHB8AxwfA8QFwfAAcHwDHB8DxAXB8ABwfAMcHwPEBcHwAHB8AxwfA8QFwfAAcHwDHBwAuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwKQAMAAPAADAADAADwAAwAAwAA8AAMAAMAAPAADAADAADwAAwAAwAA8AAMAAMAAPAALCfAGj47+ECQAAIAAEgAASAABAAAkAACAABIAAEgAAQAAJAAAgAPa8AJ9cOye+62TQAAAAASUVORK5CYII=" alt="Appunti Rapidi">
+      <div class="header-text">
+        <h1>Appunti Rapidi</h1>
+        <p>Privacy Policy</p>
+      </div>
+    </div>
 
-  <h2>Dati raccolti</h2>
-  <p>Appunti Rapidi non raccoglie, non trasmette e non condivide alcun dato personale con server esterni o terze parti.</p>
+    <h2>Dati raccolti</h2>
+    <p>Appunti Rapidi non raccoglie, non trasmette e non condivide alcun dato personale con server esterni o terze parti.</p>
 
-  <h2>Come vengono salvate le note</h2>
-  <p>Le note vengono salvate esclusivamente tramite l'API chrome.storage.sync di Google Chrome. I dati sono gestiti interamente da Google e sincronizzati tra i dispositivi collegati al tuo account Chrome, secondo la Privacy Policy di Google.</p>
+    <h2>Come vengono salvate le note</h2>
+    <p>Le note vengono salvate esclusivamente tramite l'API <strong>chrome.storage.sync</strong> di Google Chrome. I dati sono gestiti interamente da Google e sincronizzati tra i dispositivi collegati al tuo account Chrome, secondo la Privacy Policy di Google.</p>
 
-  <h2>Permessi utilizzati</h2>
-  <ul>
-    <li><strong>storage:</strong> necessario per salvare e recuperare le note dell'utente.</li>
-    <li><strong>activeTab:</strong> necessario per leggere il dominio del sito corrente e associare le note al sito visitato. Nessun altro dato della pagina viene letto o trasmesso.</li>
-  </ul>
+    <h2>Permessi utilizzati</h2>
+    <ul>
+      <li><strong>storage:</strong> necessario per salvare e recuperare le note dell'utente.</li>
+      <li><strong>activeTab:</strong> necessario per leggere il dominio del sito corrente e associare le note al sito visitato. Nessun altro dato della pagina viene letto o trasmesso.</li>
+    </ul>
 
-  <h2>Contatti</h2>
-  <p>Per qualsiasi domanda: info@valeriasimola.it</p>
+    <h2>Contatti</h2>
+    <p>Per qualsiasi domanda: <a href="mailto:info@valeriasimola.it">info@valeriasimola.it</a></p>
+
+    <div class="footer">Ultimo aggiornamento: settembre 2026</div>
+  </div>
 </body>
 </html>
